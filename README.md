@@ -20,7 +20,7 @@
 ````
 terraform init -upgrade
 ````
-Após a utilização do comando abaixo o código solicitará a definição da chave pública. E de suma importância que esse passo seja feita de maneira correta visto que o acesso a instância será acessada apenas por chave SSH. Certifique que você tenha a chave privada (par da chave pública) para a realização do acesso.
+Após a utilização do comando abaixo o código solicitará a definição da chave pública. E de suma importância que esse passo seja feita de maneira correta visto que o acesso a instância será realizado apenas por chave SSH. Certifique que você tenha a chave privada (par da chave pública) para a realização do acesso.
 ````
 terraform apply --auto-approve
 ````
